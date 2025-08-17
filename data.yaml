@@ -1,0 +1,4 @@
+train: lib/data
+val: lib/data
+nc: 1
+names: ['player']

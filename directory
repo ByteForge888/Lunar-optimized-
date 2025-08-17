@@ -1,0 +1,19 @@
+lunar-analyzer/
+├── lib/
+│   ├── aimbot.py             # YOLOv5s detection logic
+│   ├── config/
+│   │   └── config.json       # Sensitivity settings (runtime-generated)
+│   ├── data/
+│   │   └── detections.json   # Detection logs (runtime-generated)
+│   └── best.pt               # YOLOv5s model (placeholder)
+├── scripts/
+│   ├── train.py              # YOLOv5 training
+│   ├── export.py             # YOLOv5 export to ONNX
+│   ├── data_augmentation.py  # Data augmentation
+│   └── generate_code.py      # CodeLlama-13B script for code generation
+├── data.yaml                 # Dataset configuration
+├── requirements.txt          # Dependencies
+├── lunar_analyzer.py         # Main script
+├── README.md                 # Documentation
+├── LICENSE                   # MIT License
+└── .gitignore                # Ignore runtime files
